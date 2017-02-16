@@ -1,5 +1,6 @@
 filetype indent plugin on 
 syntax on 
+set hls
 set ignorecase 
 set smartcase 
 set backspace=indent,eol,start 
@@ -23,7 +24,3 @@ set wildmenu
 set showmatch 
 set history=700
 set mouse=a
-execute pathogen#infect()
-call pathogen#helptags()
-autocmd * vimenter NERDTree
-map <C-n> :NERDTreeToggle<CR>
